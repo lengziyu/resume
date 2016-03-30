@@ -1,0 +1,135 @@
+.page1{
+  .myavatar{
+    -webkit-animation: fadeInUp 1.2s ease both;
+    animation: fadeInUp 1.2s ease both;
+  }
+  .myname{
+    -webkit-animation: fadeInUp 1s ease both;
+    animation: fadeInUp 1s ease both;
+    -webkit-animation-delay: 0.6s;
+    animation-delay: 0.6s;
+  }
+  .subtitle{
+    -webkit-animation: fadeInUp 1.2s ease both;
+    animation: fadeInUp 1.2s ease both;
+    -webkit-animation-delay: 0.9s;
+    animation-delay: 0.9s;
+  }
+  h5{
+    -webkit-animation: fadeInUp 1.4s ease both;
+    animation: fadeInUp 1.4s ease both;
+    -webkit-animation-delay: 1.2s;
+    animation-delay: 1.2s;
+  }
+  .mybtn{
+    -webkit-animation: fadeInUp 0.8s ease both;
+    animation: fadeInUp 0.8s ease both;
+    -webkit-animation-delay: 1.4s;
+    animation-delay: 1.4s;
+  }
+}
+
+
+.page2{
+  .myskills{
+    @for $i from 1 through 16 {
+      a:nth-child(#{$i}){
+        -webkit-animation: zoomIn #{$i*0.2}s ease both;
+        animation: zoomIn #{$i*0.2}s ease both;
+        -webkit-animation-delay: #{$i*0.1}s;
+        animation-delay: #{$i*0.1}s;
+      }
+    }
+  }
+}
+
+.page3{
+  @for $i from 1 through 16 {
+  .work-item:nth-child(#{$i}) .rel{
+      -webkit-animation: zoomIn #{$i*0.2}s ease both;
+      animation: zoomIn #{$i*0.2}s ease both;
+      -webkit-animation-delay: #{$i*0.1}s;
+      animation-delay: #{$i*0.1}s;
+    }
+  }
+  .work-box{
+    -webkit-transform-origin: 0 50%;
+    transform-origin: 0 50%;
+    -webkit-animation: scaleRight .8s ease both;
+    animation: scaleRight .8s ease both;
+  }
+  .wow_01{
+    -webkit-animation-delay: 0.6s;
+    animation-delay: 0.6s;
+  }
+  .wow_02{
+    -webkit-animation-delay: 0.9s;
+    animation-delay: 0.9s;
+  }
+  .wow_03{
+    -webkit-animation-delay: 1.2s;
+    animation-delay: 1.2s;
+  }
+  .wow_04{
+    -webkit-animation-delay: 1.5s;
+    animation-delay: 1.5s;
+  }
+  .wow_05{
+    -webkit-animation-delay: 1.8s;
+    animation-delay: 1.8s;
+  }
+}
+
+.page4{
+  @for $i from 1 through 5 {
+  .collection-item:nth-child(#{$i}){
+      -webkit-animation: zoomIn #{$i*0.4}s ease both;
+      animation: zoomIn #{$i*0.4}s ease both;
+      -webkit-animation-delay: #{$i*0.2}s;
+      animation-delay: #{$i*0.2}s;
+    }
+  }
+}
+
+.page5{
+  .expect{
+    @for $i from 1 through 4 {
+    p:nth-child(#{$i}){
+        -webkit-animation: bounceInRight #{$i*0.5}s ease both;
+        animation: bounceInRight #{$i*0.5}s ease both;
+        -webkit-animation-delay: #{$i*0.3}s;
+        animation-delay: #{$i*0.3}s;
+      }
+    }
+  }
+}
+
+.page6{
+  .social{
+    @for $i from 1 through 6 {
+    a.call-item:nth-child(#{$i}){
+      display: inline-block;
+        -webkit-animation: bounce #{$i*0.2}s ease both;
+        animation: bounce #{$i*0.2}s ease both;
+        -webkit-animation-delay: #{$i*0.4}s;
+        animation-delay: #{$i*0.4}s;
+      }
+    }
+  }
+  .callme{
+    @for $i from 1 through 4 {
+    p:nth-child(#{$i}){
+        -webkit-animation: fadeInUp #{$i*0.2}s ease both;
+        animation: fadeInUp #{$i*0.2}s ease both;
+        -webkit-animation-delay: #{$i*0.2}s;
+        animation-delay: #{$i*0.2}s;
+      }
+    }
+  }
+  .btn-download{
+    -webkit-animation: wobble 1s ease both;
+    animation: wobble 1s ease both;
+    -webkit-animation-delay: 3.2s;
+    animation-delay: 3.2s;
+  }
+}

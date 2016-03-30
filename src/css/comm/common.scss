@@ -1,0 +1,15 @@
+// @import "./normalize";
+@import "../comp/materialize.min.css";
+@import "./animate.css";
+ul{
+  padding: 0;
+}
+li{
+  list-style: none;
+}
+.mybtn{
+  background-color: #36b5c5;
+  &:hover{
+    background-color: #239bab;
+  }
+}

@@ -1,0 +1,91 @@
+html {
+  -ms-touch-action: none;  /* 阻止windows Phone 的默认触摸事件 */
+  height: 100%;
+
+}
+body{
+  width: 100%;
+  *cursor: default;
+  height: 100%;
+  overflow: hidden;
+  color: #fff;
+  font-family: "Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Microsoft Yahei",sans-serif;
+}
+#pageContain {
+	overflow: hidden;
+}
+.page {
+	display: none;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+  padding: 50px;
+}
+.contain {
+	width: 100%;
+	height: 100%;
+	display: none;
+	position: relative;
+	z-index: 0;
+  top: 50%;
+  margin-top: -200px;
+}
+.current .contain,.slide .contain {
+	display: block;
+}
+.current {
+	display: block;
+	z-index: 1;
+}
+.slide {
+	display: block;
+	z-index: 2;
+}
+
+ .swipe {
+     display: block;
+     z-index: 3;
+     transition-duration: 0ms !important;
+     -webkit-transition-duration: 0ms !important;
+ }
+ .page1 {
+   background: #4dd0e1;
+ }
+ .page2 {
+   background: #22c3aa;
+ }
+ .page3 {
+   background: #e8b118;
+ }
+ .page4 {
+   background: #fb6d7e;
+ }
+ .page5 {
+   background: #149b70;
+ }
+ .page6 {
+   background: #19B1E0;
+ }
+ #navBar {
+   z-index: 3;
+   position: absolute;
+   top: 50%;
+   margin-top: -60px;
+   right: 3%;
+ }
+ #navBar li {
+     cursor: pointer;
+     margin-bottom: 10px;
+     transition: all .7s ease;
+     border-radius: 50%;
+     text-align: center;
+     width: 14px;
+     height: 14px;
+     background-color: rgba(255,255,255,0.3);
+ }
+ #navBar .active {
+     background: #fff;
+ }
