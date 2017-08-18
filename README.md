@@ -1,6 +1,6 @@
 # [resume](http://fenav.com/jianli)
 
-使用fis3发布后的版本在output文件下，可以右键打开预览。
+使用fis3发布后的版本在[output](https://github.com/lengziyu/resume/tree/master/output)文件下，可以右键打开预览。
 
 | This is to support the H5 resume on PC and mobile.
 
