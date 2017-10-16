@@ -8,7 +8,7 @@
 
 ## 专业技能
 - 熟练掌握CSS3+HTML5+JS标签语言化开发，可较快完成对静态页面的构建；
-- 熟练CSS预处理器LESS/SASS，模块化AMD requirejs开发，掌握基于Gulp/Webpack的前端自动化打包的项目配置；
+- 熟练CSS预处理器Less/Sass，模块化AMD requirejs开发，掌握基于Gulp/Webpack的前端自动化打包的项目配置；
 - 熟练基于jQuery+Bootstrap编程，对性能优化、懒加载、按需加载有实战经验；
 - 熟悉Reactjs+ES6+Redux+Fetch构建项目，也对Vuejs、Angularjs有一定了解，能快速上手；
 - 使用Nodejs做过一些方面的工作；
